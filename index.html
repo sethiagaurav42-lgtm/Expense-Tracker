@@ -962,12 +962,13 @@
             });
 
 
-            count.textContent =
-                `₹{filtered.length} ₹{
-                    filtered.length === 1
-                        ? "transaction"
-                        : "transactions"
-                }`;
+        
+count.textContent = 
+    `${filtered.length} ${
+        filtered.length === 1
+            ? "transaction"
+            : "transactions"
+    }`;
 
         }
 
